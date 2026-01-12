@@ -40,9 +40,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> 主题 </tag>
+            
+            <tag> hexo </tag>
             
             <tag> 诗词 </tag>
             
@@ -123,12 +123,18 @@
         <content type="html"><![CDATA[<h2 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h2><h1 id="方式一-Github-推荐"><a href="#方式一-Github-推荐" class="headerlink" title="方式一(Github 推荐):"></a>方式一(Github 推荐):</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu</span><br></pre></td></tr></table></figure><h1 id="方式三-npm安装"><a href="#方式三-npm安装" class="headerlink" title="方式三(npm安装)"></a>方式三(npm安装)</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-theme-anzhiyu</span><br></pre></td></tr></table></figure><h1 id="应用主题打开-Hexo-根目录下的-config-yml-找到以下配置项，把主题改为anzhiyu"><a href="#应用主题打开-Hexo-根目录下的-config-yml-找到以下配置项，把主题改为anzhiyu" class="headerlink" title="应用主题打开 Hexo 根目录下的 config.yml, 找到以下配置项，把主题改为anzhiyu"></a>应用主题打开 Hexo 根目录下的 config.yml, 找到以下配置项，把主题改为anzhiyu</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">theme: anzhiyu</span><br></pre></td></tr></table></figure><h1 id="安装-pug-和-stylus-渲染插件"><a href="#安装-pug-和-stylus-渲染插件" class="headerlink" title="安装 pug 和 stylus 渲染插件"></a>安装 pug 和 stylus 渲染插件</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure><h1 id="本地启动-hexo"><a href="#本地启动-hexo" class="headerlink" title="本地启动 hexo"></a>本地启动 hexo</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>]]></content>
       
       
+      <categories>
+          
+          <category> 主题安装 </category>
+          
+      </categories>
+      
       
         <tags>
             
-            <tag> 主题 </tag>
-            
             <tag> anzhiyu </tag>
+            
+            <tag> 主题 </tag>
             
             <tag> git </tag>
             
